@@ -7,7 +7,7 @@ subtitle: ""
 active: true
 content:
   page_type: publication
-  count: 3
+  count: 0
   filters:
     author: ""
     category: ""
@@ -16,6 +16,6 @@ content:
   order: desc
 headless: true
 design:
-  view: 4
+  view: 2
   columns: "2"
 ---
