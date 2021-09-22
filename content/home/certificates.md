@@ -47,7 +47,15 @@ item:
   organization_url: http://www.ncac.gov.cn
   title: Rice Storage Scheme Design System
   url: ""
+- certificate_url: uploads/DSMIS.pdf 
+  date_end: ""
+  date_start: "2020-09-15"
+  description: The software copyright of "Lean Day Surgery Process Optimization and Its Management Information System (Prototype System) Development"
+  organization: NCAC
+  organization_url: http://www.ncac.gov.cn
+  title: Day Surgery Management Information System
+  url: ""
 
 design:
-  columns: '1' 
+  columns: '2' 
 ---
