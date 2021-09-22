@@ -63,6 +63,8 @@ email: "liruixian@sjtu.edu.cn"
 highlight_name: true
 ---
 
-Now I am is a M.Phil in Industrial Engineering under the supervision of [Dr. Li Yongxiang](https://me.sjtu.edu.cn/teacher_directory1/liyongxiang.html) at Shanghai Jiao Tong University. My research interests include signal processing, fault diagnosis, and deep learning. During my master's period, I have focused on theoretical research and explored the new field with my supervisor, which trained me well in independent research capability.
+Now I am is a M.Phil in Industrial Engineering under the supervision of [Dr. Li Yongxiang](https://me.sjtu.edu.cn/teacher_directory1/liyongxiang.html) at Shanghai Jiao Tong University. My research interests include signal processing, fault diagnosis, and deep learning. 
 
-{{< icon name="download" pack="fas" >}} Download my {{< staticref "uploads/resume.pdf" "newtab" >}}resumé{{< /staticref >}}.
+During my master's period, I have focused on theoretical research and explored the new field with my supervisor, which trained me well in independent research capability.
+
+{{< icon name="download" pack="fas" >}} Download my {{< staticref "uploads/resume.pdf" "newtab" >}}resume{{< /staticref >}}.
