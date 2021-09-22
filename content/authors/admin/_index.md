@@ -10,8 +10,8 @@ role: M.Phil in Industrial Engineering
 
 # Organizations/Affiliations to show in About widget
 organizations:
-- name: Shanghai Jiao Tong University, School of Mechanical Engineering
-  url: https://me.sjtu.edu.cn
+- name: Shanghai Jiao Tong University
+  url: https://www.sjtu.edu.cn
 
 # Short bio (displayed in user profile at end of posts)
 bio: My research interests include signal processing and fault diagnosis.
@@ -54,9 +54,9 @@ social:
 # Link to a PDF of your resume/CV.
 # To use: copy your resume to `static/uploads/resume.pdf`, enable `ai` icons in `params.toml`, 
 # and uncomment the lines below.
-# - icon: cv
-#   icon_pack: ai
-#   link: uploads/resume.pdf
+ - icon: cv
+   icon_pack: ai
+   link: uploads/resume.pdf
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
 email: ""
