@@ -14,7 +14,7 @@ organizations:
   url: https://www.sjtu.edu.cn
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include signal processing and fault diagnosis.
+bio: My research interests include signal processing, fault diagnosis, and deep learning.
 
 # Interests to show in About widget
 interests:
@@ -57,14 +57,12 @@ social:
 # and uncomment the lines below.
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
-email: ""
+email: "liruixian@sjtu.edu.cn"
 
 # Highlight the author in author lists? (true/false)
 highlight_name: true
 ---
 
-Nelson Bighetti is a professor of artificial intelligence at the Stanford AI Lab. His research interests include distributed robotics, mobile computing and programmable matter. He leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
+Now I am is a M.Phil in Industrial Engineering under the supervision of [Dr. Li Yongxiang](https://me.sjtu.edu.cn/teacher_directory1/liyongxiang.html) at Shanghai Jiao Tong University. My research interests include signal processing, fault diagnosis, and deep learning. During my master's period, I have focused on theoretical research and explored the new field with my supervisor, which trained me well in independent research capability.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate.
-
-{{< icon name="download" pack="fas" >}} Download my {{< staticref "uploads/demo_resume.pdf" "newtab" >}}resumé{{< /staticref >}}.
+{{< icon name="download" pack="fas" >}} Download my {{< staticref "uploads/resume.pdf" "newtab" >}}resumé{{< /staticref >}}.
