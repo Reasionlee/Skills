@@ -17,4 +17,5 @@ content:
 headless: true
 design:
   view: 3
+  columns: "2"
 ---
