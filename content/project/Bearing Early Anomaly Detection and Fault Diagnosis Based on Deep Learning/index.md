@@ -3,6 +3,7 @@ title: Bearing Early Anomaly Detection and Fault Diagnosis Based on Deep Learnin
 summary: The main work during my master's degree.
 tags:
 - Signal Processing
+- Abnormal Detection
 - Fault Diagnosis
 - Deep Learning
 
