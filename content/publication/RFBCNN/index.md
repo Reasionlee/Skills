@@ -21,7 +21,7 @@ date: "2021-09-01T00:00:00Z"
 doi: ""
 
 # Schedule page publish date (NOT publication's date).
-publishDate: "2017-11-27T00:00:00Z"
+publishDate: "2021-10-01T00:00:00Z"
 
 # Publication type.
 # Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;
@@ -30,11 +30,10 @@ publishDate: "2017-11-27T00:00:00Z"
 publication_types: ["2"]
 
 # Publication name and optional abbreviated publication name.
-publication: The 2017 2nd International Conference on Energy, Power and Electrical Engineering
-publication_short: EPEE2017
+publication: IEEE Transactions on Instrumentation and Measurement (Under Review)
+publication_short: IEEE TIM (Under Review)
 
-abstract: Bearing fault diagnosis plays an essential role in the maintenance of rotating machines in industries. Challenges posed in developing an effective and robust bearing fault diagnosis method include the essential complexity of vibration data and the external interference caused by the data collection. This study develops an intelligent data-driven method for bearing fault diagnosis in noisy environments, consisting of the feature transformation of vibration data and fault recognition based on transformed features. Firstly, an extension of the Ramanujan filter banks (RFB) method, Scaled-RFB, is introduced to suppress the noises and convert original time series vibration data into representative RGB images. Next, a strip convolutional neural network (Strip-CNN) is developed with strip convolution to recognize the health condition of bearings based on the obtained RGB images. Two vibration datasets collected from Soochow University and a public data source are utilized to validate the effectiveness and robustness of the proposed method individually. Six levels of Gaussian noises are separately added into the two datasets to further demonstrate the performance of the proposed method in noisy environments. Compared with six benchmarking methods, the proposed method can achieve the best performance on bearing fault diagnosis in most scenarios and shows promising performance on datasets with a higher noise level. When the signal-noise ratio (SNR) is -10 dB, the average Precision, Recall, and F1 scores of the proposed method on both datasets are at least 51.79%, 52.49%, and 52.47% higher than benchmarking methods, respectively. 
-
+abstract: The quality, cost and schedule of the products and service of suppliers have direct effect to finally product, and improving the supply chain is benefit of competition of products. A company usually purchase various materials from suppliers, but their scale management ability of suppliers are different. In this way, lots of quality problems caused bad effects to quality reputation. In this article, we analyze the reason of those problems; summarize and provide the terms for improvement way, including choosing of suppliers, authorization of inspectors, extension of NCR, communication of quality information, convey on technological requirements, application of the quality control plan, combination of purchasing plan and annual assessment of suppliers; find out the management flow and improvement direction; guide suppliers to adapt the requirement of the development of factory; improve the manufacturing skills and management level; guarantee the outsourcing and cooperative products conform with our standards, reflect the quality of products.
 # Summary. An optional shortened abstract.
 summary: ""
 
