@@ -29,7 +29,7 @@ item:
   description: "GPA: 3.66/4.3"
   organization: SJTU
   organization_url: "https://en.sjtu.edu.cn"
-  title: undergraduate
+  title: Undergraduate
   url: ""
 - certificate_url: uploads/postgraduate.pdf
   date_end: "2022-06-30"
@@ -37,15 +37,7 @@ item:
   description: "GPA: 3.68/4.0"
   organization: SJTU
   organization_url: "https://en.sjtu.edu.cn"
-  title: postgraduate
-  url: ""
-- certificate_url: https://www.coursera.org
-  date_end: ""
-  date_start: "2021-01-25"
-  description: ""
-  organization: Coursera
-  organization_url: https://www.coursera.org
-  title: Neural Networks and Deep Learning
+  title: Postgraduate
   url: ""
 
 design:
