@@ -43,3 +43,11 @@ At present, a periodic estimation method in the field of biological signal proce
 - Next will consider the anomaly detection when anomalous samples are absent, and deal with
 
   the presence of periodic noise (signal components have fluctuations in period)
+
+The study had a total of three objectives.
+The first is the extraction of feature components, using time-frequency analysis and modal decomposition algorithms to extract feature components from vibration data. This content also serves the next two parts.
+
+Unknown target domain conditions can result in unknown failure modes, and previous experiments can only accumulate data at normal operation. Therefore, the early anomaly monitoring model is trained by using single-class generation learning algorithm.
+
+The monitoring process can also accumulate fault data, combined with historical data from several other source domains, can train diagnostic models to achieve bearing fault diagnosis.
+
