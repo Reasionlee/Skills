@@ -16,6 +16,6 @@ content:
   order: desc
 headless: true
 design:
-  view: 3
+  view: 4
   columns: "2"
 ---
