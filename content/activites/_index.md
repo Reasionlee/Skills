@@ -9,4 +9,5 @@ header:
   image: ""
 ---
 
-I teach the following courses:
+My campus activities can be divided into three categories: 
+

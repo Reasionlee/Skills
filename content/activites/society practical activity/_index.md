@@ -1,8 +1,8 @@
 ---
-title: 📊 Learn Data Science
-linkTitle: Data Science
-summary: An example of using Wowchemy's Book layout for publishing online courses.
-date: '2021-01-24'
+title: Student Organization
+linkTitle: Student Organization
+summary: 
+date: '2021-09-28'
 type: book
 ---
 
@@ -39,3 +39,4 @@ Continuously, at your own pace.
 {{< /spoiler >}}
 
 {{< cta cta_text="Begin the course" cta_link="python" >}}
+
