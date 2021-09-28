@@ -26,10 +26,7 @@ contact_links:
   - icon: weixin
     icon_pack: fab
     name: 13122187687
-  - icon: skype
-    icon_pack: fab
-    name: Skype
-    link: 'skype:976668460@qq.com?call'
+
 
 # Site header
 
