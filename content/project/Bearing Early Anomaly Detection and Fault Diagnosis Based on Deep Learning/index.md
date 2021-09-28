@@ -29,25 +29,16 @@ url_video: ""
 # slides: example
 ---
 
-Based on the Ramanujan Filter Banks (RFB) in the field of biological signal processing 
+Critical mechanical equipment usually serves under variable operating conditions with high load, making their bearings easy to fail. This project aims to detect and diagnose bearing failures to ensure the stable operation of equipment.
 
-At present, a periodic estimation method in the field of biological signal processing is introduced into bearing fault diagnosis, and some improvements are made, and neural networks are designed according to the characteristics of this feature, and better diagnostic results are obtained.
+However, under the interference of strong noise and the modulation of variable operating conditions, the relationship between the collected data and the fault is unclear. And the data in the fault state is few or even missing, making the analysis more difficult.
 
-- The Ph.D.'s original plan was to follow the current tutor' reading, so the pace of work was slower. The instructor used to do methodology, so hopefully I can use machine learning to open up new tracks in my application. The thesis is mainly guided by the tutor's sister-in-law, who is not much involved in the process. (Because force majeure tutors do not have places, so want to go abroad to read)
-- Do a lot of useless work in the early stage, because everyone's thinking is constantly adjusting, such as starting to feel that some simple machine learning algorithms are OK, as long as the final result is good; So it took a long time to finish writing, and in the process stepped on a lot of pits, so that many algorithms are now at least no problem in their use.
+Therefore, there are three research stages:
 
-- Proposed Scaled-RFB method based on the RFB and designed Strip-CNN to achieve better
+- **signal feature component extraction**: extract feature component from vibration data to using time-frequency analysis and modal decomposition algorithm
+- **abnormal detection**: train the abnormal detection model using the one-class generation learning algorithm
+- **fault diagnosis**: train the diagnosis model using multi-source domain transfer learning
 
-  fault diagnosis performance than benchmarks in noisy environments
+This project is still in progress.
 
-- Next will consider the anomaly detection when anomalous samples are absent, and deal with
-
-  the presence of periodic noise (signal components have fluctuations in period)
-
-The study had a total of three objectives.
-The first is the extraction of feature components, using time-frequency analysis and modal decomposition algorithms to extract feature components from vibration data. This content also serves the next two parts.
-
-Unknown target domain conditions can result in unknown failure modes, and previous experiments can only accumulate data at normal operation. Therefore, the early anomaly monitoring model is trained by using single-class generation learning algorithm.
-
-The monitoring process can also accumulate fault data, combined with historical data from several other source domains, can train diagnostic models to achieve bearing fault diagnosis.
-
+ 
