@@ -1,22 +1,20 @@
 ---
-title: "The Efficient Combination of Supplier Management and the Guarantee of the Quality of Product"
+title: "Intelligent Bearing Fault Diagnosis Based on Scaled Ramanujan Filter Banks in Noisy Environments"
 
 # Authors
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here 
 # and it will be replaced with their full name and linked to their profile.
 authors:
-- Wang Litao
 - admin
-- Miao Rui
-- Feng Ruoyi
-- Zan Xin
+- Zhuang Li
+- Li Yongxiang
+- Shen Changqing
 
 # Author notes (optional)
 author_notes:
 - ""
-- ""
-- "Corresponding Author"
-- ""
+- "Corresponding author"
+- "Corresponding author"
 - ""
 
 date: "2017-11-16T00:00:00Z"
