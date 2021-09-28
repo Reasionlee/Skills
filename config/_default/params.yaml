@@ -24,7 +24,7 @@ email: liruixian@sjtu.edu.cn
 phone: +86 131-2218-7687
 contact_links:
   - icon: weixin
-    icon_pack: fas
+    icon_pack: fab
     name: 13122187687
 
 # Site header
@@ -128,4 +128,4 @@ cms:
 icon:
   pack:
     ai: true
-    fas: true
+    fab: true

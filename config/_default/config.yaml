@@ -3,7 +3,7 @@
 # Hugo Documentation: https://gohugo.io/getting-started/configuration/#all-configuration-settings
 # This file is formatted using YAML syntax - learn more at https://learnxinyminutes.com/docs/yaml/
 
-title: Academic # Website name
+title: Li Ruixian | SJTU IE # Website name
 baseurl: 'https://example.com/' # Website URL
 copyright: '' # Footer text, e.g. '© {year} Me'
 
@@ -29,7 +29,7 @@ module:
 ## ADVANCED
 ############################
 
-enableGitInfo: false
+enableGitInfo: true
 summaryLength: 30
 paginate: 20
 enableEmoji: true
