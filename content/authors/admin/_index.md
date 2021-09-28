@@ -42,16 +42,16 @@ education:
 social:
 - icon: envelope
   icon_pack: fas
-  link: mailto:liruixian@sjtu.edu.cn"
+  link: mailto:liruixian@sjtu.edu.cn
 - icon: google-scholar  # Alternatively, use `google-scholar` icon from `ai` icon pack
   icon_pack: ai
   link: https://scholar.google.co.uk/citations?user=T4MfSygAAAAJ
 - icon: github
   icon_pack: fab
   link: https://github.com/Reasionlee
-- icon: cv
-  icon_pack: ai
-  link: uploads/resume.pdf
+# - icon: cv
+#   icon_pack: ai
+#   link: uploads/resume.pdf
 # Link to a PDF of your resume/CV.
 # To use: copy your resume to `static/uploads/resume.pdf`, enable `ai` icons in `params.toml`, 
 # and uncomment the lines below.

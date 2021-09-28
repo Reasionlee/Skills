@@ -28,7 +28,7 @@ item:
   date_start: "2015-09-01"
   description: "GPA: 3.66/4.3"
   organization: SJTU
-  organization_url: ""
+  organization_url: "https://en.sjtu.edu.cn"
   title: undergraduate
   url: ""
 - certificate_url: uploads/postgraduate.pdf
@@ -36,7 +36,7 @@ item:
   date_start: "2019-09-01"
   description: "GPA: 3.68/4.0"
   organization: SJTU
-  organization_url: ""
+  organization_url: "https://en.sjtu.edu.cn"
   title: postgraduate
   url: ""
 
