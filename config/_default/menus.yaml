@@ -7,23 +7,29 @@ main:
   - name: Home
     url: '#about'
     weight: 10
+  - name: Transcripts
+    url: '#transcripts'
+    weight: 12
   - name: Publications
-    url: '#featured'
+    url: '#publications'
     weight: 15
-  - name: Posts
-    url: '#posts'
-    weight: 20
-  - name: Projects
+  - name: Research
     url: '#projects'
     weight: 30
-  - name: Talks
-    url: '#talks'
+  - name: Internship
+    url: '#experience'
     weight: 40
-  - name: Intern
-    url: '#contact'
-    weight: 70
+  - name: Certificates
+    url: '#certificates'
+    weight: 50
+  - name: Awards
+    url: '#awards'
+    weight: 60
   - name: Contact
     url: '#contact'
+    weight: 70
+  - name: Activities
+    url: '/activities'
     weight: 80
 
 # Link to a PDF of your resume/CV from the menu.
