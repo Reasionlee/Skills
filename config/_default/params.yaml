@@ -25,15 +25,14 @@ phone: +86 131-2218-7687
 contact_links:
   - icon: weixin
     icon_pack: fas
-    name: WeChat
-    link: 'https://discourse.gohugo.io'
+    name: 13122187687
 
 # Site header
 
 main_menu:
   enable: true
   align: l
-  show_logo: true
+  show_logo: false
   show_language: false
   show_day_night: true
   show_search: true
@@ -63,7 +62,7 @@ edit_page:
     book: false
 show_related:
   book: true
-  page: false
+  page: true
   post: true
   project: true
   publication: true
@@ -71,7 +70,7 @@ show_related:
 reading_time: true
 section_pager: true
 docs_section_pager: true
-sharing: true
+sharing: false
 copyright_license:
   enable: false
   allow_derivatives: false
@@ -87,9 +86,9 @@ publications:
   date_format: January 2006
   citation_style: apa
 projects:
-  post_view: 3
-  publication_view: 3
-  talk_view: 3
+  post_view: 7
+  publication_view: 7
+  talk_view: 7
 breadcrumb:
   page_types:
     book: true
@@ -129,3 +128,4 @@ cms:
 icon:
   pack:
     ai: true
+    fas: true
