@@ -40,6 +40,5 @@ Therefore, there are three research stages:
 - **abnormal detection**: train the abnormal detection model using the one-class generation learning algorithm
 - **fault diagnosis**: train the diagnosis model using multi-source domain transfer learning
 
-This project is still in progress.
+This project is still in progress. 
 
- 

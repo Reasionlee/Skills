@@ -1,10 +1,10 @@
 ---
-title: Intelligent Bearing Fault Diagnosis Based on Scaled Ramanujan Filter Banks in Noisy Environments
-summary: This paper is under review by IEEE TIM.
+title: Intelligent Push of Automobile R&D Knowledge Based on Preference and User Group
+summary: This is my undergraduate project (thesis).
 tags:
-- Signal Processing
-- Fault Diagnosis
-- Deep Learning
+- Intelligent Push
+- Knowledge Preference
+- User Group
 
 date: "2019-09-01T00:00:00Z"
 
