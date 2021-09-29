@@ -42,32 +42,32 @@ Two vibration datasets collected from Soochow University and Case Western Reserv
 The dataset of Soochow University:
 
 | Health Types | Fault Width (mm) | Location of Bearing Faults |
-| ------------ | ---------------- | -------------------------- |
-| 1            | 0.2              | IR                         |
-| 2            | 0.2              | IR                         |
-| 3            | 0.2              | BA                         |
-| 4            | 0.6              | BA                         |
-| 5            | 0.6              | OR                         |
-| 6            | 0.6              | OR                         |
-| 7            | N.A.             | No                         |
+| :----------: | :--------------: | :------------------------: |
+|      1       |       0.2        |             IR             |
+|      2       |       0.2        |             IR             |
+|      3       |       0.2        |             BA             |
+|      4       |       0.6        |             BA             |
+|      5       |       0.6        |             OR             |
+|      6       |       0.6        |             OR             |
+|      7       |       N.A.       |             No             |
 
 The dataset of  Case Western Reserve University:
 
 | Health Types | Dataset number | Fault width (mm) | Location of Bearing Faults | Locations of Bearings |
-| ------------ | -------------- | ---------------- | -------------------------- | --------------------- |
-| 1            | 3001           | 0.72             | IR                         | DE                    |
-| 2            | 118            | 0.18             | BA                         | DE                    |
-| 3            | 197            | 0.36             | OR centered                | DE                    |
-| 4            | 290            | 0.36             | BA                         | FE                    |
-| 5            | 298            | 0.18             | OR orthogonal              | FE                    |
-| 6            | 302            | 0.18             | OR opposite                | FE                    |
-| 7            | 97             | N.A.             | Normal                     | N.A.                  |
+| :----------: | :------------: | :--------------: | :------------------------: | :-------------------: |
+|      1       |      3001      |       0.72       |             IR             |          DE           |
+|      2       |      118       |       0.18       |             BA             |          DE           |
+|      3       |      197       |       0.36       |        OR centered         |          DE           |
+|      4       |      290       |       0.36       |             BA             |          FE           |
+|      5       |      298       |       0.18       |       OR orthogonal        |          FE           |
+|      6       |      302       |       0.18       |        OR opposite         |          FE           |
+|      7       |       97       |       N.A.       |           Normal           |         N.A.          |
 
 Six levels of Gaussian noises are separately added into the two datasets to further demonstrate the performance of the proposed method in noisy environments. Values of the SNR and the corresponding energy of six groups of synthesized noisy datasets are $[10,3,0,-3,-7,-10]$ dB and $[0.1,0.5,1,2,5,10]$ times of the original signal respectively.
 
 Six state-of-art deep learning algorithms with the feature transformation via STFT are considered benchmarking algorithms in this study, including the AlexNet, GoogLeNet, ResNet-18, SqueezeNet, ShuffleNet, and EfficientNet. Compared with six benchmarking methods, the proposed method can achieve the best performance on bearing fault diagnosis in most scenarios and shows promising performance on datasets with a higher noise level. 
 
-When the signal-noise ratio (SNR) is $-10$ dB, the average Precision, Recall, and F1 scores of the proposed method on both datasets are at least $51.79%$, $52.49%$, and $52.47%$ higher than benchmarking methods, respectively.
+When the signal-noise ratio (SNR) is $-10$ dB, the average Precision, Recall, and F1 scores of the proposed method on both datasets are at least $51.79\%$ $52.49\%$, and $52.47\%$ higher than benchmarking methods, respectively.
 
 
 
