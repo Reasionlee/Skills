@@ -1,39 +1,37 @@
 ---
-title: "The Efficient Combination of Supplier Management and the Guarantee of the Quality of Product"
+title: "Intelligent Bearing Fault Diagnosis Based on Scaled Ramanujan Filter Banks in Noisy Environments"
 
 # Authors
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here 
 # and it will be replaced with their full name and linked to their profile.
 authors:
-- Wang Litao
 - admin
-- Miao Rui
-- Feng Ruoyi
-- Zan Xin
+- Zhuang Li
+- Li Yongxiang
+- Shen Changqing
 
 # Author notes (optional)
 author_notes:
 - ""
-- ""
-- "Corresponding Author"
-- ""
+- "Corresponding author"
+- "Corresponding author"
 - ""
 
-date: "2017-11-16T00:00:00Z"
-doi: "10.12783/dteees/epee2017/18157"
+date: "2021-09-01T00:00:00Z"
+doi: ""
 
 # Schedule page publish date (NOT publication's date).
-publishDate: "2017-11-27T00:00:00Z"
+publishDate: "2021-10-01T00:00:00Z"
 
 # Publication type.
 # Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;
 # 3 = Preprint / Working Paper; 4 = Report; 5 = Book; 6 = Book section;
 # 7 = Thesis; 8 = Patent
-publication_types: ["1"]
+publication_types: ["2"]
 
 # Publication name and optional abbreviated publication name.
-publication: The 2017 2nd International Conference on Energy, Power and Electrical Engineering
-publication_short: EPEE2017
+publication: IEEE Transactions on Instrumentation and Measurement (Under Review)
+publication_short: IEEE TIM (Under Review)
 
 abstract: The quality, cost and schedule of the products and service of suppliers have direct effect to finally product, and improving the supply chain is benefit of competition of products. A company usually purchase various materials from suppliers, but their scale management ability of suppliers are different. In this way, lots of quality problems caused bad effects to quality reputation. In this article, we analyze the reason of those problems; summarize and provide the terms for improvement way, including choosing of suppliers, authorization of inspectors, extension of NCR, communication of quality information, convey on technological requirements, application of the quality control plan, combination of purchasing plan and annual assessment of suppliers; find out the management flow and improvement direction; guide suppliers to adapt the requirement of the development of factory; improve the manufacturing skills and management level; guarantee the outsourcing and cooperative products conform with our standards, reflect the quality of products.
 
@@ -83,3 +81,4 @@ url_video: ''
 ---
 
 This  paper has been published on EI journals.
+
