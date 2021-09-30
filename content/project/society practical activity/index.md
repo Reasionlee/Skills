@@ -1,9 +1,29 @@
 ---
-title: Student Organization
-linkTitle: Student Organization
-summary: 
-date: '2021-09-28'
-type: book
+​---
+title: Intelligent Push of Automobile R&D Knowledge Based on Preference and User Group
+summary: This is my undergraduate project (thesis).
+
+tags:
+- Intelligent Push
+- Knowledge Preference
+- User Group
+
+date: "2019-09-01T00:00:00Z"
+
+# Optional external URL for project (replaces project detail page).
+external_link: ""
+
+image:
+  caption: The framework
+  focal_point: Smart
+
+links:
+url_code: ""
+url_pdf: ""
+url_slides: ""
+url_video: ""
+
+
 ---
 
 {{< figure src="featured.jpg" >}}
