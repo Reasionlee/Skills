@@ -67,7 +67,7 @@ Six levels of Gaussian noises are separately added into the two datasets to furt
 
 Six state-of-art deep learning algorithms with the feature transformation via STFT are considered benchmarking algorithms in this study, including the AlexNet, GoogLeNet, ResNet-18, SqueezeNet, ShuffleNet, and EfficientNet. Compared with six benchmarking methods, the proposed method can achieve the best performance on bearing fault diagnosis in most scenarios and shows promising performance on datasets with a higher noise level. 
 
-When the signal-noise ratio (SNR) is $-10$ dB, the average Precision, Recall, and F1 scores of the proposed method on both datasets are at least $51.79 \%$ $52.49 \%$, and $52.47 \%$ higher than benchmarking methods, respectively.
+When the signal-noise ratio (SNR) is $-10$ dB, the average Precision, Recall, and F1 scores of the proposed method on both datasets are at least $51.79$%, $52.49$%, and $52.47$% higher than benchmarking methods, respectively.
 
 
 
