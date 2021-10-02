@@ -321,11 +321,11 @@ $$
    $$
 
    $$
-   F_{ij}\geq m a x{\{0,\max_{1\le k\le b_{ij}}{ \{ min{\{U_1,U_2\}}\}}\}}
+   F_{ij}\geq m a x{[0,\max_{1\le k\le b_{ij}}{ [ min{[U_1,U_2]}]}}]
    $$
 
    $$
-   F_{ij}\le m i n{\{2,\min_{1\le k\le b_{ij}}{\{max{\{U_1,U_2\}}\}}\}}
+   F_{ij}\le m i n{[2,\min_{1\le k\le b_{ij}}{[max{[U_1,U_2]}]}]}
    $$
 
 5. Get the random number $r_3 \in [0,1]$.
