@@ -70,8 +70,8 @@ There are three different types of workpieces ($J_1-J_3$), the processing time f
 The total number and minimum batch for each kind of workpiece are:
 
 | $J_1$ | $J_2$ | $J_3$ | minimum batch $S$ |
-| :---: | :---: | :---: | ----------------- |
-|  300  |  150  |  200  | 50                |
+| :---: | :---: | :---: | :---------------: |
+|  300  |  150  |  200  |        50         |
 
 The setup time is (units: 1000 seconds):  
 
@@ -123,41 +123,70 @@ The setup time is (units: 1000 seconds):
 # Model
 
 $$
-m i n \: Z = C _ { m a x }\\
+m i n \: Z = C _ { m a x }
+$$
+
+$$
 C _ { m a x } = \max_{ 1 \leq i \leq N } \lbrace \max _{1 \leq k \leq b _ { in_i }}  {C W T _ { i n _ { i } k} }\rbrace
 $$
 
 $$
-\sum _ { k = 1 } ^ { b_{ij} } B N _ { ijk } = B S _ { i }, \, \forall i, j \quad B N _ { ijk } \in Z ,\, \forall  i , j , k\\
-B N _ { i j k } \geq S ,\, \forall i , j , k  
+\sum _ { k = 1 } ^ { b_{ij} } B N _ { ijk } = B S _ { i }, \, \forall i, j \quad B N _ { ijk } \in Z ,\, \forall  i , j , k
 $$
 
 $$
-\sum\limits _ { l = 1 } ^ { M } \phi _ { ijkl } = 1 , \, \forall i ,j, k  \\
-\sum\limits _ { l = 1 } ^ { M } ( \phi _ { ijkl} \times WT _ { ijl } ) > 0 , \, \forall i , j , k  
+B N _ { i j k } \geq S ,\, \forall i , j , k
 $$
 
 $$
-S W T _ { ijk} \geq C T _ { i (j-1)} ( \sum\limits _ { k' = 1 } ^ { k } BN _ { ij k'}) , \, \forall i , k \, \forall j > 1  \\
-S W T _ { i  ( d n _ { i } + 1 ) l} \geq R _ { i }\, \forall i  
+\sum\limits _ { l = 1 } ^ { M } \phi _ { ijkl } = 1 , \, \forall i ,j, k
 $$
 
 $$
-S P T _ { ijk} \geq C W T _ { i'j'k'} \times \delta _ { i' j ' k'\_ i j k} \times \sum\limits _ { l = 1 } ^ { M } ( \phi _{i jkl} \times \phi _{i'j'k'l}), \; \forall i,j, k,i',j',k'\\
-S P T _ { ijk } \geq \lbrack S W T _ { i' j' k' } + B N _ { i' j' k'  } \times \sum\limits _ { i = 1 } ^ { M } (\phi _{i'j'k'l} \times WT_ { i ' j' l} ) \times \delta _ { i' j ' k'\_ i j k} \times \sum\limits _ { l = 1 } ^ { M } ( \phi _ { ijkl} \times \phi _{i'j'k'l} ) 
+\sum\limits _ { l = 1 } ^ { M } ( \phi _ { ijkl} \times WT _ { ijl } ) > 0 , \, \forall i , j , k
 $$
 
 $$
-C P T _ { ijk } = S P T _ {  ijk  } + \sum\limits _ { l = 1 } ^ { M } ( P T _ { ij1 } \times \phi _ { ijkl } \times \varphi _ { i j k l} ) , \; \forall  i , j , k  \\
-S W T _ { i j k } = C P T _ { ijk },\; \forall i, j , k  \\
+S W T _ { ijk} \geq C T _ { i (j-1)} ( \sum\limits _ { k' = 1 } ^ { k } BN _ { ij k'}) , \, \forall i , k \, \forall j > 1
+$$
+
+$$
+S W T _ { i  ( d n _ { i } + 1 ) l} \geq R _ { i }\, \forall i
+$$
+
+$$
+S P T _ { ijk} \geq C W T _ { i'j'k'} \times \delta _ { i' j ' k'\_ i j k} \times \sum\limits _ { l = 1 } ^ { M } ( \phi _{i jkl} \times \phi _{i'j'k'l}), \; \forall i,j, k,i',j',k'
+$$
+
+$$
+S P T _ { ijk } \geq \lbrack S W T _ { i' j' k' } + B N _ { i' j' k'  } \times \sum\limits _ { i = 1 } ^ { M } (\phi _{i'j'k'l} \times WT_ { i ' j' l} ) \times \delta _ { i' j ' k'\_ i j k} \times \sum\limits _ { l = 1 } ^ { M } ( \phi _ { ijkl} \times \phi _{i'j'k'l} )
+$$
+
+$$
+C P T _ { ijk } = S P T _ {  ijk  } + \sum\limits _ { l = 1 } ^ { M } ( P T _ { ij1 } \times \phi _ { ijkl } \times \varphi _ { i j k l} ) , \; \forall  i , j , k
+$$
+
+$$
+S W T _ { i j k } = C P T _ { ijk },\; \forall i, j , k
+$$
+
+$$
 C W T _ { ijk} = S W T _ { ijk} + B N _ { ijk } \times \sum\limits _ { l = 1 } ^ { M } ( \phi _ { ij  k l } \times WT_{ijl} ) , \; \forall i , j ,k
 $$
 
 $$
-i,i'=1,2,\cdots,N \\
-k=1,2,\cdots,b_{ij}\\
-k'=1,2,\cdots,b_{i'j'}\\
-j=\left({dn}_i+1\right),\left({dn}_i+2\right),\cdots,n_i\\
+i,i'=1,2,\cdots,N;
+$$
+
+$$
+k=1,2,\cdots,b_{ij}; k'=1,2,\cdots,b_{i'j'};
+$$
+
+$$
+j=\left({dn}_i+1\right),\left({dn}_i+2\right),\cdots,n_i;
+$$
+
+$$
 j'=\left({dn}_i+1\right),\left({dn}_i+2\right),\cdots,n_{i'}
 $$
 
@@ -172,16 +201,43 @@ $$
 ## Encoding
 
 $$
-x_h= | x_{h,1({dn}_1+1),1}\ x_{h,1({dn}_1+1),2}\ \cdots\ x_{h,1({dn}_1+1),b_{1({dn}_1+1)}}\ |\cdots| x_{h,1n_1,1}\ x_{h,1n_1,2}\ \cdots\ x_{h,1n_1,b_{1n_1}} | \cdots 
-\\
- |x_{h,N\left({dn}_N+1\right),1}\ x_{h,N\left({dn}_N+1\right),2}\ \cdots\ x_{h,N\left({dn}_N+1\right),b_{N\left({dn}_N+1\right)}} \left|\cdots\right|\ x_{h,Nn_N,1}\ x_{h,Nn_N,2}\ \cdots\ x_{h,Nn_N,b_{Nn_N}}|
+x_h= | x_{h,1({dn}_1+1),1}\ x_{h,1({dn}_1+1),2}\ \cdots\ x_{h,1({dn}_1+1),b_{1({dn}_1+1)}}\ |\cdots
 $$
 
 $$
-y_h=|y_{h,1({dn}_1+1),1}\ y_{h,1({dn}_1+1),2}\ \cdots\ y_{h,1({dn}_1+1),b_{1({dn}_1+1)}}\ |\cdots|y_{h,1n_1,1}\ y_{h,1n_1,2}\ \cdots\ y_{h,1n_1,b_{1n_1}}|\cdots
-\\
-|y_{h,N({dn}_N+1),1}\ y_{h,N({dn}_N+1),2}\ \cdots\ y_{h,N({dn}_N+1),b_{N({dn}_N+1)}} |\cdots|\ y_{h,Nn_N,1}\ y_{h,Nn_N,2}\ \cdots\ y_{h,Nn_N,b_{Nn_N}}|
+| x_{h,1n_1,1}\ x_{h,1n_1,2}\ \cdots\ x_{h,1n_1,b_{1n_1}} | \cdots 
 $$
+
+$$
+|x_{h,N\left({dn}_N+1\right),1}\ x_{h,N\left({dn}_N+1\right),2}\ \cdots\ x_{h,N\left({dn}_N+1\right),b_{N\left({dn}_N+1\right)}} |\cdots
+$$
+
+$$
+ |\ x_{h,Nn_N,1}\ x_{h,Nn_N,2}\ \cdots\ x_{h,Nn_N,b_{Nn_N}}|
+$$
+
+
+$$
+y_h=|y_{h,1({dn}_1+1),1}\ y_{h,1({dn}_1+1),2}\ \cdots\ y_{h,1({dn}_1+1),b_{1({dn}_1+1)}}\ |\cdots
+$$
+
+$$
+|y_{h,1n_1,1}\ y_{h,1n_1,2}\ \cdots\ y_{h,1n_1,b_{1n_1}}|\cdots
+$$
+
+$$
+|y_{h,N({dn}_N+1),1}\ y_{h,N({dn}_N+1),2}\ \cdots\ y_{h,N({dn}_N+1),b_{N({dn}_N+1)}} |\cdots
+$$
+
+$$
+|\ y_{h,Nn_N,1}\ y_{h,Nn_N,2}\ \cdots\ y_{h,Nn_N,b_{Nn_N}}|
+$$
+
+
+
+
+
+
 
 ## Decoding
 
@@ -191,7 +247,7 @@ $$
 
    If ${BN}_{ijk}=0$, then this batch is invalid, and go step 5; otherwise, go step 3.
 
-3. If $j>{dn}_i+1$, then calculate the time for $\sum_{k'=1}^{k}{BN}_{ijk'}$ workpieced $i$ to complet process $j-1$.
+3. If $j>dn_{i}+1$, then calculate the time for $\sum_{k'=1}^{k}{BN}_{ijk'}$ workpieced $i$ to complet process $j-1$.
 
 4. Select the machine that can complete batch $k$’s setup and process operation for workpiece $i$ in the process $j$ first.
 
@@ -212,8 +268,14 @@ $$
 ## Global Search
 
 $$
-\Omega=\frac{D_t}{D_{max}}\\
-D_t=\frac{1}{N_p}\times\sum_{h=1}^{N_p}\left(f_h^t-\bar{f^t}\right)^2\\
+\Omega=\frac{D_t}{D_{max}}
+$$
+
+$$
+D_t=\frac{1}{N_p}\times\sum_{h=1}^{N_p}\left(f_h^t-\bar{f^t}\right)^2
+$$
+
+$$
 D_{max}=max{D_{t^\prime},t^\prime=0,1,\cdots,t}
 $$
 
@@ -244,9 +306,13 @@ $$
 
 4. $$
    x_{h,ij,k}^\prime=\left[x_{h_1,ij,k}^t+F_{ij}\times\left(x_{h_2,ij,k}^t-x_{h_3,ij,k}^t\right)\right],\ k=1,2,\cdots,b_{ij}
-   \\
+   $$
+
+   $$
    F_{ij}\geq m a x{\left\{0,\max_{1\le k\le b_{ij}}{\left\{min{\left\{\frac{{BS}_i-x_{h_1,ij,k}^t}{x_{h_2,ij,k}^t-x_{h_3,ij,k}^t},\frac{-x_{h_1,ij,k}^t}{x_{h_2,ij,k}^t-x_{h_3,ij,k}^t}\right\}}\right\}}\right\}}
-   \\
+   $$
+
+   $$
    F_{ij}\le m i n{\left\{2,\min_{1\le k\le b_{ij}}{\left\{max{\left\{\frac{{BS}_i-x_{h_1,ij,k}^t}{x_{h_2,ij,k}^t-x_{h_3,ij,k}^t},\frac{-x_{h_1,ij,k}^t}{x_{h_2,ij,k}^t-x_{h_3,ij,k}^t}\right\}}\right\}}\right\}}
    $$
 
@@ -300,7 +366,7 @@ $$
 
    4. If the $(d-1)$’s batch on $y$ does not belong workpiece $i$, then swap the batches on location $d$ and $d-1$.
 
-   5. If $f(x\&y)>f(x_h\&y_h)$, then $x_h=x,y_h=y$.
+   5. If $f(x,y)>f(x_h,y_h)$, then $x_h=x,y_h=y$.
 
    6. $d=d-1$.
 
@@ -318,7 +384,7 @@ $$
 
    4. If the $(d-1)$’s batch on $y$ does not belong workpiece $i$, then swap the batches on location $d$ and $d+1$.
 
-   5. If $f(x\&y)>f(x_h\&y_h)$, then $x_h=x,y_h=y$.
+   5. If $f(x,y)>f(x_h,y_h)$, then $x_h=x,y_h=y$.
 
    6. $d=d+1$.
 
