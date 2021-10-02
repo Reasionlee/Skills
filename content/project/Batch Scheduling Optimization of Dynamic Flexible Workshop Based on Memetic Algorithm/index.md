@@ -159,7 +159,7 @@ S P T _ { ijk} \geq C W T _ { i'j'k'} \times \delta _ { i' j ' k'\_ i j k} \time
 $$
 
 $$
-S P T _ { ijk } \geq \lbrack S W T _ { i' j' k' } + B N _ { i' j' k'  } \times \sum\limits _ { i = 1 } ^ { M } (\phi _{i'j'k'l} \times WT_ { i ' j' l} ) \times \delta _ { i' j ' k'\_ i j k} \times \sum\limits _ { l = 1 } ^ { M } ( \phi _ { ijkl} \times \phi _{i'j'k'l} )
+S P T _ { ijk } \geq \lbrack S W T _ { i' j' k' } + B N _ { i' j' k'  } \times \sum\limits _ { i = 1 } ^ { M } (\phi_{i'j'k'l} \times WT_ { i ' j' l} ) \times \delta_{ i' j ' k'\_ i j k} \times \sum\limits _ { l = 1 } ^ { M } ( \phi _ { ijkl} \times \phi _{i'j'k'l} )
 $$
 
 $$
@@ -187,7 +187,7 @@ j=\left({dn}_i+1\right),\left({dn}_i+2\right),\cdots,n_i;
 $$
 
 $$
-j'=\left({dn}_i+1\right),\left({dn}_i+2\right),\cdots,n_{i'}
+j'=\left({dn}_i+1\right),\left(dn_{i}+2\right),\cdots,n_{i'}
 $$
 
 # Memetic Algorithm
@@ -280,11 +280,14 @@ D_{max}=max{D_{t^\prime},t^\prime=0,1,\cdots,t}
 $$
 
 $$
-CR=\begin{cases}
-CR_{0} & t=0\\
-CR_{0}\times2^{1-\beta\times\Omega} & t>0
-\end{cases}
+CR=CR_{0} \quad if \quad t=0;
 $$
+
+$$
+CR = CR_{0}\times2^{1-\beta\times\Omega} \quad if \quad t>0
+$$
+
+
 
 ### For $x_h$
 
@@ -309,11 +312,16 @@ $$
    $$
 
    $$
-   F_{ij}\geq m a x{\left\{0,\max_{1\le k\le b_{ij}}{\left\{min{\left\{\frac{{BS}_i-x_{h_1,ij,k}^t}{x_{h_2,ij,k}^t-x_{h_3,ij,k}^t},\frac{-x_{h_1,ij,k}^t}{x_{h_2,ij,k}^t-x_{h_3,ij,k}^t}\right\}}\right\}}\right\}}
+   U_1 = \frac{{BS}_i-x_{h_1,ij,k}^t}{x_{h_2,ij,k}^t-x_{h_3,ij,k}^t}; 
+   U_2 = \frac{-x_{h_1,ij,k}^t}{x_{h_2,ij,k}^t-x_{h_3,ij,k}^t};
    $$
 
    $$
-   F_{ij}\le m i n{\left\{2,\min_{1\le k\le b_{ij}}{\left\{max{\left\{\frac{{BS}_i-x_{h_1,ij,k}^t}{x_{h_2,ij,k}^t-x_{h_3,ij,k}^t},\frac{-x_{h_1,ij,k}^t}{x_{h_2,ij,k}^t-x_{h_3,ij,k}^t}\right\}}\right\}}\right\}}
+   F_{ij}\geq m a x{\left\{0,\max_{1\le k\le b_{ij}}{\left \{ min{\left\{U_1,U_2\right\}}\right\}}\right\}}
+   $$
+
+   $$
+   F_{ij}\le m i n{\left\{2,\min_{1\le k\le b_{ij}}{\left\{max{\left\{U_1,U_2\right\}}\right\}}\right\}}
    $$
 
 5. Get the random number $r_3 \in [0,1]$.
@@ -356,9 +364,9 @@ $$
 
 2. If $r=1$, then go step 3; otherwise:
 
-   1. If $j>{dn}_i+1$, denote the batch $b_{i(j-1)}$’s location of workpiece $i$ in the process $j-1$ on $y$ as $d_1$; otherwise $d_1=0$.
+   1. If $j>dn_{i}+1$, denote the batch $b_{i(j-1)}$’s location of workpiece $i$ in the process $j-1$ on $y$ as $d_1$; otherwise $d_1=0$.
 
-   2. If the $(d-1)$’s batch on $y$ belongs workpiece $i$ in the process $j$, then swap the ${BN}_{ijk}\ $ and ${BN}_{ij(k-1)}$ on $x$;
+   2. If the $(d-1)$’s batch on $y$ belongs workpiece $i$ in the process $j$, then swap the $BN_{ijk}$ and $BN_{ij(k-1)}$ on $x$;
 
       $k=k-1$, go step 5.
 
@@ -376,7 +384,7 @@ $$
 
    1. If $j<n_i$,  denote the first batch’s location of workpiece $i$ in the process $j+1$ on $y$ as $d_2$; otherwise $d_2=L+1$.
 
-   2. If the $(d+1)$’s batch on $y$ belongs workpiece $i$ in the process $j$, then swap the ${BN}_{ijk}\ $ and ${BN}_{ij(k+1)}$ on $x$;
+   2. If the $(d+1)$’s batch on $y$ belongs workpiece $i$ in the process $j$, the $BN_{ijk}$ and $BN_{ij(k+1)}$ on $x$;
 
       $k=k+1$, go step 5.
 
