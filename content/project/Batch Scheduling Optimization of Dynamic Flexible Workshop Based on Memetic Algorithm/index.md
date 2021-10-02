@@ -131,47 +131,51 @@ C _ { m a x } = \max_{ 1 \leq i \leq N } \lbrace \max _{1 \leq k \leq b _ { in_i
 $$
 
 $$
-\sum _ { k = 1 } ^ { b_{ij} } B N _ { ijk } = B S _ { i }, \, \forall i, j \quad B N _ { ijk } \in Z ,\, \forall  i , j , k
+\sum _ { k = 1 } ^ { b_{ij} } B N _ { ijk } = B S _ { i },  \forall i, j \quad B N _ { ijk } \in Z , \forall  i , j , k
 $$
 
 $$
-B N _ { i j k } \geq S ,\, \forall i , j , k
+B N _ { i j k } \geq S , \forall i , j , k
 $$
 
 $$
-\sum\limits _ { l = 1 } ^ { M } \phi _ { ijkl } = 1 , \, \forall i ,j, k
+\sum\limits _ { l = 1 } ^ { M } \phi _ { ijkl } = 1 ,  \forall i ,j, k
 $$
 
 $$
-\sum\limits _ { l = 1 } ^ { M } ( \phi _ { ijkl} \times WT _ { ijl } ) > 0 , \, \forall i , j , k
+\sum\limits _ { l = 1 } ^ { M } ( \phi _ { ijkl} \times WT _ { ijl } ) > 0 ,  \forall i , j , k
 $$
 
 $$
-S W T _ { ijk} \geq C T _ { i (j-1)} ( \sum\limits _ { k' = 1 } ^ { k } BN _ { ij k'}) , \, \forall i , k \, \forall j > 1
+S W T _ { ijk} \geq C T _ { i (j-1)} ( \sum\limits _ { k' = 1 } ^ { k } BN _ { ij k'}) ,  \forall i , k  \forall j > 1
 $$
 
 $$
-S W T _ { i  ( d n _ { i } + 1 ) l} \geq R _ { i }\, \forall i
+S W T _ { i  ( d n _ { i } + 1 ) l} \geq R _ { i }\forall i
 $$
 
 $$
-S P T _ { ijk} \geq C W T _ { i'j'k'} \times \delta _ { i' j ' k'\_ i j k} \times \sum\limits _ { l = 1 } ^ { M } ( \phi _{i jkl} \times \phi _{i'j'k'l}), \; \forall i,j, k,i',j',k'
+S P T _ { ijk} \geq C W T _ { i'j'k'} \times \delta _ { i' j ' k'\_ i j k} \times \sum\limits _ { l = 1 } ^ { M } ( \phi _{i jkl} \times \phi _{i'j'k'l}), \forall i,j, k,i',j',k'
 $$
 
 $$
-S P T _ { ijk } \geq \lbrack S W T _ { i' j' k' } + B N _ { i' j' k'  } \times \sum\limits _ { i = 1 } ^ { M } (\phi_{i'j'k'l} \times WT_ { i ' j' l} ) \times \delta_{ i' j ' k'\_ i j k} \times \sum\limits _ { l = 1 } ^ { M } ( \phi _ { ijkl} \times \phi _{i'j'k'l} )
+S P T _ { ijk } \geq \lbrack S W T _ { i' j' k' } + B N _ { i' j' k'  } \times \sum\limits _ { i = 1 } ^ { M } (\phi_{i'j'k'l} \times WT_ { i ' j' l} )
 $$
 
 $$
-C P T _ { ijk } = S P T _ {  ijk  } + \sum\limits _ { l = 1 } ^ { M } ( P T _ { ij1 } \times \phi _ { ijkl } \times \varphi _ { i j k l} ) , \; \forall  i , j , k
+\times \delta_{ i' j ' k'\_ i j k} \times \sum\limits _ { l = 1 } ^ { M } ( \phi _ { ijkl} \times \phi _{i'j'k'l} )
 $$
 
 $$
-S W T _ { i j k } = C P T _ { ijk },\; \forall i, j , k
+C P T _ { ijk } = S P T _ {  ijk  } + \sum\limits _ { l = 1 } ^ { M } ( P T _ { ij1 } \times \phi _ { ijkl } \times \varphi _ { i j k l} ) , \forall  i , j , k
 $$
 
 $$
-C W T _ { ijk} = S W T _ { ijk} + B N _ { ijk } \times \sum\limits _ { l = 1 } ^ { M } ( \phi _ { ij  k l } \times WT_{ijl} ) , \; \forall i , j ,k
+S W T _ { i j k } = C P T _ { ijk },\forall i, j , k
+$$
+
+$$
+C W T _ { ijk} = S W T _ { ijk} + B N _ { ijk } \times \sum\limits _ { l = 1 } ^ { M } ( \phi _ { ij  k l } \times WT_{ijl} ) ,  \forall i , j ,k
 $$
 
 $$
@@ -187,7 +191,7 @@ j=\left({dn}_i+1\right),\left({dn}_i+2\right),\cdots,n_i;
 $$
 
 $$
-j'=\left({dn}_i+1\right),\left(dn_{i}+2\right),\cdots,n_{i'}
+j'=(dn_{i}+1),(dn_{i}+2),\cdots,n_{i'}
 $$
 
 # Memetic Algorithm
@@ -312,16 +316,16 @@ $$
    $$
 
    $$
-   U_1 = \frac{{BS}_i-x_{h_1,ij,k}^t}{x_{h_2,ij,k}^t-x_{h_3,ij,k}^t}; 
+   U_1 = \frac{BS_i-x_{h_1,ij,k}^t}{x_{h_2,ij,k}^t-x_{h_3,ij,k}^t}; 
    U_2 = \frac{-x_{h_1,ij,k}^t}{x_{h_2,ij,k}^t-x_{h_3,ij,k}^t};
    $$
 
    $$
-   F_{ij}\geq m a x{\left\{0,\max_{1\le k\le b_{ij}}{\left \{ min{\left\{U_1,U_2\right\}}\right\}}\right\}}
+   F_{ij}\geq m a x{\{0,\max_{1\le k\le b_{ij}}{ \{ min{\{U_1,U_2\}}\}}\}}
    $$
 
    $$
-   F_{ij}\le m i n{\left\{2,\min_{1\le k\le b_{ij}}{\left\{max{\left\{U_1,U_2\right\}}\right\}}\right\}}
+   F_{ij}\le m i n{\{2,\min_{1\le k\le b_{ij}}{\{max{\{U_1,U_2\}}\}}\}}
    $$
 
 5. Get the random number $r_3 \in [0,1]$.
@@ -406,7 +410,7 @@ $$
 
 ## Operation
 
-![operation](operation.png)
+![operation](operation.jpg)
 
 # Simulation
 
@@ -414,7 +418,7 @@ $$
 
 364800 seconds:
 
-![benchmark](benchmark.png)
+![benchmark](benchmark.jpg)
 
 ## Comparation
 
