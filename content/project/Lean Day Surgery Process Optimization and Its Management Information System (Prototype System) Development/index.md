@@ -1,6 +1,6 @@
 ---
 title: Lean Day Surgery Process Optimization and Its Management Information System (Prototype System) Development
-summary: The project is funded by Participation in Research Program (PRP). 
+summary: The project is funded by Participation in Research Program (PRP: T020PRP32030). 
 tags:
 - Process Optimization
 - Management Information System
