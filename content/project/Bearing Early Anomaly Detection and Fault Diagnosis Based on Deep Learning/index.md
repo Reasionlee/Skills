@@ -27,7 +27,7 @@ url_video: ""
 #   Simply enter your slide deck's filename without extension.
 #   E.g. `slides = "example-slides"` references `content/slides/example-slides.md`.
 #   Otherwise, set `slides = ""`.
-# slides: example
+slides: Bearing Early Anomaly Detection and Fault Diagnosis Based on Deep Learning
 ---
 
 Critical mechanical equipment usually serves under variable operating conditions with high load, making their bearings easy to fail. This project aims to detect and diagnose bearing failures to ensure the stable operation of equipment.
