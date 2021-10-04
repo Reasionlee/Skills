@@ -24,13 +24,13 @@ Critical mechanical equipment:
 - variable operating conditions 
 - high load
 
-bearings easy to fail.
+Bearings easy to fail
 
 ---
 
 ## Aim
 
-Ensure the stable operation of equipment:
+Ensure the stable operation of the equipment:
 
 - detect and diagnose bearing failures
 
@@ -50,7 +50,7 @@ Ensure the stable operation of equipment:
 
 ## Framework
 
-![featured](featured.jpg)
+<img src="featured.jpg" alt="featured" style="zoom:150%;" />
 
 {{< speaker_note >}}
 
@@ -62,4 +62,4 @@ Therefore, there are three research stages:
 
 This project is still in progress. 
 
-{{< speaker_note >}}
+{{< /speaker_note >}}
