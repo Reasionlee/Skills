@@ -29,7 +29,7 @@ experience:
     location: Shanghai Headquarters
     date_start: '2018-07-01'
     date_end: '2018-08-31'
-    description: 
+    description: |2-
         * Made suggestions for the process of telephone customer service (such as optimizing the system interface layout) to improve their work efficiency in hotel reservations.
         * Optimized the process for customers to book hotels through the Ctrip APP and calls.
         * Analyzed the impact of processes on order volume using statistical methods and Excel.
@@ -41,7 +41,7 @@ experience:
     location: Shanghai Office
     date_start: '2018-01-15'
     date_end: '2018-02-14'
-    description:
+    description: |2-
         * Participated in the audit work including preparing the financial statements, checking the reimbursement vouchers, and contacting the bank's staff. Received a recruitment invitation.
         * Completed 1 audit project with another colleague in 1 week (without overtime) based on the accounting knowledge, which required 3 employees and 2 weeks in previous years.
 
