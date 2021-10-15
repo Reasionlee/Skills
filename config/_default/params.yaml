@@ -25,7 +25,7 @@ phone: +86 131-2218-7687
 contact_links:
   - icon: weixin
     icon_pack: fab
-    name: 13122187687
+    name: Reasion_Lee
 
 
 # Site header
@@ -118,11 +118,11 @@ map:
   api_key: ''
   zoom: 15
 marketing:
-  google_analytics: ''
-  google_tag_manager: ''
+  google_analytics: 'G-648VZJ2W6E'
+  google_tag_manager: 'GTM-KBSPBTP'
   google_site_verification: ''
   baidu_site_verification: ''
-  baidu_tongji: ''
+  baidu_tongji: 'b42d2c5d23e15ed354f5b875977a967a'
 cms:
   branch: master
   local_backend: false
