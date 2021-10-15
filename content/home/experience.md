@@ -23,27 +23,27 @@ date_format: Jan 2006
 #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
 experience:
   - title: Process Intern
-    company: Ctrip
-    company_url: ''
+    company: Ctrip (Hotel Service Department)
+    company_url: 'https://hk.trip.com/?locale=en_hk'
     company_logo: ctrip
-    location: Shanghai
+    location: Shanghai Headquarters
     date_start: '2018-07-01'
     date_end: '2018-08-31'
-    description: |2-
-        Responsibilities include:
+    description: 
+        * Made suggestions for the process of telephone customer service (such as optimizing the system interface layout) to improve their work efficiency in hotel reservations.
+        * Optimized the process for customers to book hotels through the Ctrip APP and calls.
+        * Analyzed the impact of processes on order volume using statistical methods and Excel.
         
-        * Analysing
-        * Modelling
-        * Deploying
-        
-  - title: Professor of Semiconductor Physics
-    company: University X
-    company_url: ''
-    company_logo: org-x
-    location: California
-    date_start: '2016-01-01'
-    date_end: '2020-12-31'
-    description: Taught electronic engineering and researched semiconductor physics.
+  - title: Audit Intern
+    company: KPMG (Financial Department)
+    company_url: 'https://home.kpmg/xx/en/home.html'
+    company_logo: kpmg
+    location: Shanghai Office
+    date_start: '2018-01-15'
+    date_end: '2018-02-14'
+    description:
+        * Participated in the audit work including preparing the financial statements, checking the reimbursement vouchers, and contacting the bank's staff. Received a recruitment invitation.
+        * Completed 1 audit project with another colleague in 1 week (without overtime) based on the accounting knowledge, which required 3 employees and 2 weeks in previous years.
 
 design:
   columns: '2'
