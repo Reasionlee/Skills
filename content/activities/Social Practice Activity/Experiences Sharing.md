@@ -1,6 +1,7 @@
 ---
 title: Experiences Sharing
-date: '2017-08-01'
+summary: I have particated in 8 social 
+date: '2017-08-09'
 type: book
 weight: 20
 ---
@@ -41,10 +42,13 @@ Shared experiences with potential and prospective SJTUers.
   - Introduced the campus life in SJTU
   - Answered their questions about how to prepare for the incoming campus life
 
-## 
+### Photo
+
+![SA2](SA2.jpg)
 
 
 
 ## Award
 
 ![award](award.jpg)
+
