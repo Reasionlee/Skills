@@ -8,46 +8,46 @@ weight: 20
 
 Shared experiences with potential and prospective SJTUers.
 
-# Sailing Ambassador
+## Sailing Ambassador
 
 {{< icon name="calendar-times" pack="fas" >}} Aug. 2016
 
-{{< icon name="map-maker" pack="fas" >}} My high school alma mater
+{{< icon name="location-arrow" pack="fas" >}} My high school alma mater
 
 - Shared the experience to the younger siblings:
   - college entrance examination
   - college choice 
 
-## Photo
+### Photo
 
 {{< figure src="SA1.jpg">}}
 
-# Flight Aid Plan
+## Flight Aid Plan
 
 {{< icon name="calendar-times" pack="fas" >}} Aug. 2016 & 2017
 
 {{< icon name="map-maker" pack="fas" >}} My hometown
 
-## Part I
+#### Part I
 
 - Visited the new SJTUers who need to apply for poverty benefits
 - Helped them improve their application materials
 
-### Photo
+#### Photo
 
 {{< figure src="FA1.jpg" >}}
 
-## Part II
+### Part II
 
 - Gathered the new SJTUers:
   - Introduced the campus life in SJTU
   - Answered their questions about how to prepare for the incoming campus life
 
-### Photo
+#### Photo
 
 {{< figure src="FA2.jpg" >}}
 
-## Award
+### Award
 
 {{< figure src="award1.jpg" >}}
 
