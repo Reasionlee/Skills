@@ -22,6 +22,10 @@ Shared experiences with potential and prospective SJTUers.
 
 {{< figure src="SA1.jpg" >}}
 
+![award](award.jpg)
+
+uploads/FTFZ.pdf
+
 # Flight Aid Plan
 
 - Aug. 2016 & 2017
