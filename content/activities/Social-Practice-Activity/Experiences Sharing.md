@@ -8,8 +8,6 @@ weight: 20
 
 Shared experiences with potential and prospective SJTUers.
 
-{{< figure src="featured.jpg" >}}
-
 # Sailing Ambassador
 
 - Aug. 2016
@@ -20,13 +18,7 @@ Shared experiences with potential and prospective SJTUers.
 
 ## Photo
 
-{{< figure src="SA1.jpg" id="wowchemy" >}}
-
-![A Figure](#figure-wowchemy)
-
-![award](award1.jpg "caption")
-
-uploads/FTFZ.pdf
+{{< figure src="SA1.jpg">}}
 
 # Flight Aid Plan
 
@@ -52,9 +44,7 @@ uploads/FTFZ.pdf
 
 {{< figure src="FA2.jpg" >}}
 
-
-
 ## Award
 
-{{< figure src="award.jpg" >}}
+{{< figure src="award1.jpg" >}}
 
