@@ -22,7 +22,7 @@ Shared experiences with potential and prospective SJTUers.
 
 {{< figure src="SA1.jpg" id="wowchemy" >}}
 
-[A Figure](#figure-wowchemy)
+![A Figure](#figure-wowchemy)
 
 ![award](award.jpg)
 
