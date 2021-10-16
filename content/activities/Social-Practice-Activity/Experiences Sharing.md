@@ -10,8 +10,10 @@ Shared experiences with potential and prospective SJTUers.
 
 # Sailing Ambassador
 
-- Aug. 2016
-- At my high school alma mater
+{{< icon name="calendar-times" pack="fas" >}} Aug. 2016
+
+{{< icon name="map-maker-alt" pack="fas" >}} My high school alma mater
+
 - Shared the experience to the younger siblings:
   - college entrance examination
   - college choice 
@@ -22,8 +24,9 @@ Shared experiences with potential and prospective SJTUers.
 
 # Flight Aid Plan
 
-- Aug. 2016 & 2017
-- In my hometown
+{{< icon name="calendar-times" pack="fas" >}} Aug. 2016 & 2017
+
+{{< icon name="map-maker-alt" pack="fas" >}} My hometown
 
 ## Part I
 
