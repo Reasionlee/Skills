@@ -26,9 +26,9 @@ Shared experiences with potential and prospective SJTUers.
 
 {{< icon name="calendar-times" pack="fas" >}} Aug. 2016 & 2017
 
-{{< icon name="map-maker" pack="fas" >}} My hometown
+{{< icon name="location-arrow" pack="fas" >}} My hometown
 
-#### Part I
+### Part I
 
 - Visited the new SJTUers who need to apply for poverty benefits
 - Helped them improve their application materials

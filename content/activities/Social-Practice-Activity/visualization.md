@@ -2,7 +2,7 @@
 title: Visualization
 date: '2021-01-01'
 type: book
-weight: 30
+weight: 60
 highlight: true
 ---
 
