@@ -24,7 +24,7 @@ Shared experiences with potential and prospective SJTUers.
 
 ![A Figure](#figure-wowchemy)
 
-![award](award.jpg)
+![award](award1.jpg "caption")
 
 uploads/FTFZ.pdf
 
