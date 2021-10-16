@@ -1,6 +1,6 @@
 ---
 title: Experiences Sharing
-summary: I have particated in 8 social 
+summary: Shared experiences with potential and prospective SJTUers.
 date: '2017-08-09'
 type: book
 weight: 20
@@ -8,7 +8,7 @@ weight: 20
 
 Shared experiences with potential and prospective SJTUers.
 
-## Sailing Ambassador
+# Sailing Ambassador
 
 - Aug. 2016
 - At my high school alma mater
@@ -18,11 +18,11 @@ Shared experiences with potential and prospective SJTUers.
 
 ## Photo
 
-![SA1](SA1.jpg)
+{{< figure src="SA1.jpg" >}}
 
+{{< toc hide_on="xl" >}}
 
-
-## Flight Aid Plan
+# Flight Aid Plan
 
 - Aug. 2016 & 2017
 - In my hometown
@@ -34,7 +34,7 @@ Shared experiences with potential and prospective SJTUers.
 
 ### Photo
 
-![FA1](FA1.jpg)
+{{< figure src="FA1.jpg" >}}
 
 ## Part II
 
@@ -44,11 +44,11 @@ Shared experiences with potential and prospective SJTUers.
 
 ### Photo
 
-![SA2](SA2.jpg)
+{{< figure src="FA2.jpg" >}}
 
 
 
 ## Award
 
-![award](award.jpg)
+{{< figure src="award.jpg" >}}
 

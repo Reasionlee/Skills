@@ -14,5 +14,3 @@ Survey the national conditions of China.
 - Yanyuan County, Dali Bai Autonomous Prefecture, Yunnan Province
 - 
 
-The general form of the **normal** probability density function is:
-
