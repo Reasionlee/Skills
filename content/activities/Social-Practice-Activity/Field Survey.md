@@ -65,7 +65,7 @@ Visited high-tech enterprises and universities; learned about their history and 
 
 - Mindray
 
-  {{< figure src="HD4.jpg">}}
+  {{< figure src="HD04.jpg">}}
 
 - DJI
 
@@ -73,7 +73,7 @@ Visited high-tech enterprises and universities; learned about their history and 
 
 - BGI
 
-  {{< figure src="HD9.jpg">}}
+  {{< figure src="HD09.jpg">}}
 
 - Shenzhen Stock Exchange
 
