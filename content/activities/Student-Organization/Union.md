@@ -1,5 +1,5 @@
 ---
-title: Deputy Director of Academic Center
+title: Academic Center
 date: '2017-06-30'
 summary: Deputy Director of the Academic Center, a department of the Mechanical Engineering School's Student Union.
 type: book

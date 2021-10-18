@@ -11,7 +11,7 @@ highlight: true
 
 ## Anniversary of SJTU
 
-{{< icon name="calendar-times" pack="fas" >}} Apr. 2016/2017/2018
+{{< icon name="calendar-times" pack="fas" >}} Apr. 2016 & 2017 & 2018
 
 {{< figure src="CL1.jpg">}}
 

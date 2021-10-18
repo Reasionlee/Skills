@@ -18,8 +18,6 @@ Shared experiences with potential and prospective SJTUers.
   - college entrance examination
   - college choice 
 
-### Photo
-
 {{< figure src="SA1.jpg">}}
 
 ## Flight Aid Plan
@@ -33,8 +31,6 @@ Shared experiences with potential and prospective SJTUers.
 - Visited the new SJTUers who need to apply for poverty benefits
 - Helped them improve their application materials
 
-#### Photo
-
 {{< figure src="FA1.jpg" >}}
 
 ### Part II
@@ -42,8 +38,6 @@ Shared experiences with potential and prospective SJTUers.
 - Gathered the new SJTUers:
   - Introduced the campus life in SJTU
   - Answered their questions about how to prepare for the incoming campus life
-
-#### Photo
 
 {{< figure src="FA2.jpg" >}}
 

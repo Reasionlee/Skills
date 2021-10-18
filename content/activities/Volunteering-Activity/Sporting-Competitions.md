@@ -10,7 +10,7 @@ weight: 10
 
 ## Shanghai International Marathon
 
-{{< icon name="calendar-times" pack="fas" >}} Nov. 2015/2016/2017/2018
+{{< icon name="calendar-times" pack="fas" >}} Nov. 2015 & 2016 & 2017 & 2018
 
 {{< figure src="SC1.jpg">}}
 
@@ -24,7 +24,7 @@ weight: 10
 
 {{< icon name="calendar-times" pack="fas" >}} Mar. 2016
 
-- The 46th sports meeting of SJTU
+{{< icon name="location-arrow" pack="fas" >}} The 46th sports meeting of SJTU
 
 ## Orienteering
 
@@ -44,19 +44,19 @@ weight: 10
 
 {{< icon name="calendar-times" pack="fas" >}} Nov. 2017
 
-{{< figure src="SC5.jpg">}}
+{{< icon name="location-arrow" pack="fas" >}} The first race in Shanghai
 
-- The first race in Shanghai
+{{< figure src="SC5.jpg">}}
 
 ## Winter long-distance running
 
 {{< icon name="calendar-times" pack="fas" >}} Dec. 2017
 
-{{< figure src="SC5.jpg">}}
+{{< figure src="SC6.jpg">}}
 
 ## Badminton Games in Four Schools
 
 {{< icon name="calendar-times" pack="fas" >}} Mar. 2021
 
-{{< figure src="SC6.jpeg">}}
+{{< figure src="SC7.jpeg">}}
 

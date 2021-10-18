@@ -13,11 +13,7 @@ weight: 5
 {{< icon name="location-arrow" pack="fas" >}} Engineering Statistics
 
 - Answered questions, marked assignments, and prepared the courseware.
-
-{{< spoiler text="Taught the use of statistical software: ">}}
-
-- Minitab
-- SPSS
+- Taught the use of statistical software: Minitab. SPSS
 
 {{< /spoiler >}}
 

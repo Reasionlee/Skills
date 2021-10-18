@@ -47,7 +47,8 @@ Survey the national conditions of China.
 
 {{< icon name="location-arrow" pack="fas" >}} Shenzhen, Guangdong Province
 
-Visited high-tech enterprises and universities; learned about their history and development.
+- Visited high-tech enterprises and universities
+- Learned about their history and development.
 
 ### Enterprises
 

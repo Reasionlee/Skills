@@ -1,5 +1,5 @@
 ---
-title: Undersecretary of UTJS's Propaganda Department
+title: Undersecretary
 date: '2017-03-30'
 summary: Undersecretary of the Propaganda Department, a department of the UTJS Experiential Education Student Organizing Committee.
 type: book
@@ -34,5 +34,4 @@ UTJS is a student organization under the guidance of the Student Steering Commit
   - Recruitment
 
   
-
 
