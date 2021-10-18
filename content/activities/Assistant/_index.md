@@ -14,7 +14,7 @@ weight: 5
 
 - Answered questions, marked assignments, and prepared the courseware.
 
-{{< spoiler text="Taught the use of statistical software: >}}
+{{< spoiler text="Taught the use of statistical software: ">}}
 
 - Minitab
 - SPSS
