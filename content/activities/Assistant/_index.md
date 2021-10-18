@@ -3,7 +3,7 @@ title: Assistant Experience
 summary: I have experiences of teaching assistant and assistant head teacher.
 date: '2021-10-18'
 type: book
-weight: 10
+weight: 5
 ---
 
 ## Teaching Assistant
@@ -13,9 +13,15 @@ weight: 10
 {{< icon name="location-arrow" pack="fas" >}} Engineering Statistics
 
 - Answered questions, marked assignments, and prepared the courseware.
--  Taught the use of statistical software: 
+
+-  {{< spoiler text="Taught the use of statistical software: >}}
+  
   - Minitab
   - SPSS
+  
+  {{< /spoiler >}}
+  
+-  - 
 
 ## Assistant Head Teacher
 
