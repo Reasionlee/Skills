@@ -21,6 +21,8 @@ Understood more in-depth of the enterprise, set up a good view of career choice.
 
 {{< figure src="EV2.jpg">}} 
 
+{{< figure src="EV2-1.jpeg">}} 
+
 ## Huawei
 
 {{< icon name="calendar-times" pack="fas" >}} Aug. 2018

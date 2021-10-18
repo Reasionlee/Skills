@@ -9,5 +9,5 @@ header:
   image: ""
 ---
 
-My campus activities can be divided into three categories: 
+My campus activities can be divided into 4 categories: 
 
