@@ -5,9 +5,9 @@ title: "Analysis and Countermeasure Research on Plan Issues of Heavy Lift Crane 
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here 
 # and it will be replaced with their full name and linked to their profile.
 authors:
-- Huang Jing
-- admin
-- Miao Rui
+- Jing Huang,
+- Ruixian Li,
+- Rui Miao
 
 # Author notes (optional)
 author_notes:
@@ -78,4 +78,5 @@ url_video: ''
 # slides: example
 ---
 
-This  paper has been published on EI journals.
+This paper is published on the EI journal.
+

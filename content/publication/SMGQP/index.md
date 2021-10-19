@@ -5,11 +5,11 @@ title: "The Efficient Combination of Supplier Management and the Guarantee of th
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here 
 # and it will be replaced with their full name and linked to their profile.
 authors:
-- Wang Litao
-- admin
-- Miao Rui
-- Feng Ruoyi
-- Zan Xin
+- Litao Wang
+- Ruixian Li
+- Rui Miao
+- Ruoyi Feng
+- Xin Zan
 
 # Author notes (optional)
 author_notes:
@@ -82,4 +82,5 @@ url_video: ''
 # slides: example
 ---
 
-This  paper has been published on EI journals.
+This  paper is published on the EI journal.
+
