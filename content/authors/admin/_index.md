@@ -63,7 +63,7 @@ email: "liruixian@sjtu.edu.cn"
 highlight_name: true
 ---
 
-Now I am is an Acadamic Master in Industrial Engineering under the supervision of [Dr. Li Yongxiang](https://me.sjtu.edu.cn/teacher_directory1/liyongxiang.html) at Shanghai Jiao Tong University. My research interests include signal processing, fault diagnosis, and deep learning. 
+Now I am is an Acadamic Master in Industrial Engineering under the supervision of [Dr. Yongxiang Li](https://me.sjtu.edu.cn/teacher_directory1/liyongxiang.html) at Shanghai Jiao Tong University. My research interests include signal processing, fault diagnosis, and deep learning. 
 
 During my master's period, I have focused on theoretical research and explored the new field with my supervisor, which trained me well in independent research capability.
 
