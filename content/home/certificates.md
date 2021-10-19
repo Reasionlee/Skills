@@ -23,7 +23,7 @@ date_format: Jan 2006
 #   Leave other parameters empty if not required.
 #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
 item:
-- certificate_url: uploads/IELTS.pdf
+- certificate_url: 
   date_end: ""
   date_start: "2021-02-03"
   description: "Test report form Number: 20CN100253LIR004A"

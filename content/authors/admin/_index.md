@@ -1,12 +1,12 @@
 ---
 # Display name
-title: Li Ruixian
+title: Ruixian LI
 
 # Is this the primary user of the site?
 superuser: true
 
 # Role/position/tagline
-role: M.Phil in Industrial Engineering
+role: Acadamic Master in Industrial Engineering
 
 # Organizations/Affiliations to show in About widget
 organizations:
@@ -25,7 +25,7 @@ interests:
 # Education to show in About widget
 education:
   courses:
-  - course: M.Phil in Industrial Engineering
+  - course: Acadamic Master in Industrial Engineering
     institution: Shanghai Jiao Tong University
     year: 2022
   - course: B.Eng in Industrial Engineering
@@ -63,8 +63,9 @@ email: "liruixian@sjtu.edu.cn"
 highlight_name: true
 ---
 
-Now I am is a M.Phil in Industrial Engineering under the supervision of [Dr. Li Yongxiang](https://me.sjtu.edu.cn/teacher_directory1/liyongxiang.html) at Shanghai Jiao Tong University. My research interests include signal processing, fault diagnosis, and deep learning. 
+Now I am is an Acadamic Master in Industrial Engineering under the supervision of [Dr. Li Yongxiang](https://me.sjtu.edu.cn/teacher_directory1/liyongxiang.html) at Shanghai Jiao Tong University. My research interests include signal processing, fault diagnosis, and deep learning. 
 
 During my master's period, I have focused on theoretical research and explored the new field with my supervisor, which trained me well in independent research capability.
 
-{{< icon name="download" pack="fas" >}} Download my {{< staticref "uploads/resume.pdf" "newtab" >}}resume{{< /staticref >}}.
+{{< icon name="download" pack="fas" >}} Here is my {{< staticref "uploads/resume.pdf" "newtab" >}}resume{{< /staticref >}}.
+

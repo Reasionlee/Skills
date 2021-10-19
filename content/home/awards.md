@@ -35,8 +35,8 @@ item:
 - certificate_url: uploads/SZYC.pdf
   date_end: ""
   date_start: "2018-12-31"
-  description: |2-
-        * Top 1%
+  description: Top 1%
+|2-
         * Established by the Suzhou Human Resources and Social Security Bureau
         * Amounted to RMB 10,000
   organization: SJTU
@@ -56,8 +56,8 @@ item:
 - certificate_url: uploads/FTFZ.pdf 
   date_end: ""
   date_start: "2017-12-01"
-  description: |2-
-        * Top 9%
+  description: Top 9%
+|2-
         * Established by the Toyota Boshuku (China) Co., LTD
         * Amounted to RMB 3,000
   organization: SJTU

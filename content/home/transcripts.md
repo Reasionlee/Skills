@@ -15,7 +15,7 @@ subtitle:
 
 # Date format
 #   Refer to https://wowchemy.com/docs/customization/#date-format
-date_format: Jan 2006
+date_format: Jan. 2006
 
 # Accomplishments.
 #   Add/remove as many `item` blocks below as you like.
@@ -26,7 +26,7 @@ item:
 - certificate_url: uploads/undergraduate.pdf
   date_end: "2019-06-30"
   date_start: "2015-09-01"
-  description: "GPA: 3.66/4.3"
+  description: "GPA: 3.68/4.3"
   organization: SJTU
   organization_url: "https://en.sjtu.edu.cn"
   title: Undergraduate
