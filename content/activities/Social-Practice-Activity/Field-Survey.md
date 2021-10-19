@@ -1,7 +1,7 @@
 ---
 title: Field Survey
 date: '2017-08-01'
-summary: Survey the national conditions of China.
+summary: Surveyed the national conditions of China.
 type: book
 weight: 40
 

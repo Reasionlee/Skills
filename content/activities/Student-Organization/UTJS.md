@@ -1,5 +1,5 @@
 ---
-title: Undersecretary
+title: UTJS Club
 date: '2017-03-30'
 summary: Undersecretary of the Propaganda Department, a department of the UTJS Experiential Education Student Organizing Committee.
 type: book

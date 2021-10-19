@@ -13,11 +13,11 @@ weight: 5
 {{< icon name="location-arrow" pack="fas" >}} Engineering Statistics
 
 - Answered questions, marked assignments, and prepared the courseware.
-- Taught the use of statistical software: Minitab. SPSS
+- Taught the use of statistical software: Minitab, SPSS
 
 ## Assistant Head Teacher
 
-{{< icon name="calendar-times" pack="fas" >}} Sept 2019 - Jun 2020
+{{< icon name="calendar-times" pack="fas" >}} Sept. 2019 - Jun. 2020
 
 {{< icon name="id-badge" pack="fas" >}} F1902020
 

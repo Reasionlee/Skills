@@ -7,6 +7,8 @@ weight: 10
 
 ---
 
+Head of the Dell Supply Chain Club; member of the Dell Elite Class.
+
 ## Dell Supply Chain Club
 
 {{< icon name="calendar-times" pack="fas" >}} Oct. 2017 - Sept. 2018
