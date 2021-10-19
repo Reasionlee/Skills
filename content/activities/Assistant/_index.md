@@ -15,8 +15,6 @@ weight: 5
 - Answered questions, marked assignments, and prepared the courseware.
 - Taught the use of statistical software: Minitab. SPSS
 
-{{< /spoiler >}}
-
 ## Assistant Head Teacher
 
 {{< icon name="calendar-times" pack="fas" >}} Sept 2019 - Jun 2020
