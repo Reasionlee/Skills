@@ -26,7 +26,8 @@ item:
 - certificate_url: 
   date_end: ""
   date_start: "2019-06-30"
-  description: Top 13%
+  description: |-
+        - Top 13%
   organization: SJTU
   organization_url: https://en.sjtu.edu.cn
   title: Outstanding Graduate
@@ -35,7 +36,7 @@ item:
 - certificate_url: uploads/SZYC.pdf
   date_end: ""
   date_start: "2018-12-31"
-  description: |2-
+  description:|-
         - Top 1% 
         - Established by the Suzhou Human Resources and Social Security Bureau
         - Amounted to RMB 10,000
@@ -47,7 +48,8 @@ item:
 - certificate_url: uploads/YXTG.pdf 
   date_end: ""
   date_start: "2018-05-04"
-  description: Top 4%
+  description:|-
+        - Top 4%
   organization: Committee of the School of ME, SJTU, Communist Youth League
   organization_url: https://me.sjtu.edu.cn/xsgz/twgk.html
   title: Outstanding League Cadre
@@ -56,10 +58,10 @@ item:
 - certificate_url: uploads/FTFZ.pdf 
   date_end: ""
   date_start: "2017-12-01"
-  description: |-
+  description:|-
         - Top 9% 
-        * Established by the Toyota Boshuku (China) Co., LTD
-        * Amounted to RMB 3,000
+        - Established by the Toyota Boshuku (China) Co., LTD
+        - Amounted to RMB 3,000
   organization: SJTU
   organization_url: https://en.sjtu.edu.cn
   title: Toyota Boshuku Scholarship (Second Prize)
@@ -68,7 +70,8 @@ item:
 - certificate_url: uploads/SHXS.pdf 
   date_end: ""
   date_start: "2017-10-01"
-  description: Top 10%
+  description:|-
+        - Top 10%
   organization: Committee of the SJTU, Communist Youth League
   organization_url: https://youth.sjtu.edu.cn
   title: Merit Student
@@ -77,7 +80,8 @@ item:
 - certificate_url: uploads/SHSJY.pdf 
   date_end: ""
   date_start: "2017-10-01"
-  description: Top 7%
+  description:|-
+        - Top 7%
   organization: Committee of the SJTU, Communist Youth League
   organization_url: https://youth.sjtu.edu.cn
   title: First Prize of Society Practical Activities
@@ -86,7 +90,8 @@ item:
 - certificate_url: uploads/YXTY.pdf 
   date_end: ""
   date_start: "2017-10-01"
-  description: Top 6%
+  description:|-
+        - Top 6%
   organization: Committee of the SJTU, Communist Youth League
   organization_url: https://youth.sjtu.edu.cn
   title: Outstanding League Member
@@ -95,7 +100,8 @@ item:
 - certificate_url: uploads/XB.pdf 
   date_end: ""
   date_start: "2016-12-01"
-  description: Top 6%
+  description:|-
+        - Top 6%
   organization: SJTU
   organization_url: https://en.sjtu.edu.cn
   title: Academic Excellence Scholarship (Second Class)
@@ -104,7 +110,8 @@ item:
 - certificate_url: uploads/SHSJS.pdf 
   date_end: ""
   date_start: "2016-10-01"
-  description: Top 2%
+  description:|-
+        - Top 2%
   organization: Committee of the SJTU, Communist Youth League
   organization_url: https://youth.sjtu.edu.cn
   title: Top Ten of Society Practical Activities 
