@@ -1,6 +1,6 @@
 ---
 title: Intelligent Bearing Fault Diagnosis Based on Scaled Ramanujan Filter Banks in Noisy Environments
-summary: This paper is under review by IEEE TIM.
+summary: This paper is accepted by IEEE TIM.
 tags:
 - Signal Processing
 - Fault Diagnosis
