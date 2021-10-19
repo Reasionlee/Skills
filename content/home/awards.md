@@ -48,7 +48,7 @@ item:
 - certificate_url: uploads/YXTG.pdf 
   date_end: ""
   date_start: "2018-05-04"
-  description:|-
+  description: |-
         - Top 4%
   organization: Committee of the School of ME, SJTU, Communist Youth League
   organization_url: https://me.sjtu.edu.cn/xsgz/twgk.html
@@ -58,7 +58,7 @@ item:
 - certificate_url: uploads/FTFZ.pdf 
   date_end: ""
   date_start: "2017-12-01"
-  description:|-
+  description: |-
         - Top 9% 
         - Established by the Toyota Boshuku (China) Co., LTD
         - Amounted to RMB 3,000
@@ -70,7 +70,7 @@ item:
 - certificate_url: uploads/SHXS.pdf 
   date_end: ""
   date_start: "2017-10-01"
-  description:|-
+  description: |-
         - Top 10%
   organization: Committee of the SJTU, Communist Youth League
   organization_url: https://youth.sjtu.edu.cn
@@ -80,7 +80,7 @@ item:
 - certificate_url: uploads/SHSJY.pdf 
   date_end: ""
   date_start: "2017-10-01"
-  description:|-
+  description: |-
         - Top 7%
   organization: Committee of the SJTU, Communist Youth League
   organization_url: https://youth.sjtu.edu.cn
@@ -90,7 +90,7 @@ item:
 - certificate_url: uploads/YXTY.pdf 
   date_end: ""
   date_start: "2017-10-01"
-  description:|-
+  description: |-
         - Top 6%
   organization: Committee of the SJTU, Communist Youth League
   organization_url: https://youth.sjtu.edu.cn
@@ -100,7 +100,7 @@ item:
 - certificate_url: uploads/XB.pdf 
   date_end: ""
   date_start: "2016-12-01"
-  description:|-
+  description: |-
         - Top 6%
   organization: SJTU
   organization_url: https://en.sjtu.edu.cn
@@ -110,7 +110,7 @@ item:
 - certificate_url: uploads/SHSJS.pdf 
   date_end: ""
   date_start: "2016-10-01"
-  description:|-
+  description: |-
         - Top 2%
   organization: Committee of the SJTU, Communist Youth League
   organization_url: https://youth.sjtu.edu.cn
