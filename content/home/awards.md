@@ -36,7 +36,7 @@ item:
 - certificate_url: uploads/SZYC.pdf
   date_end: ""
   date_start: "2018-12-31"
-  description:|-
+  description: |-
         - Top 1% 
         - Established by the Suzhou Human Resources and Social Security Bureau
         - Amounted to RMB 10,000
