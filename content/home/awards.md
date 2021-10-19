@@ -55,8 +55,7 @@ item:
 - certificate_url: uploads/FTFZ.pdf 
   date_end: ""
   date_start: "2017-12-01"
-  description: Top 9%
-|2-
+  description: Top 9% |2-
         * Established by the Toyota Boshuku (China) Co., LTD
         * Amounted to RMB 3,000
   organization: SJTU
