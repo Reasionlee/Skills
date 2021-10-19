@@ -35,9 +35,10 @@ item:
 - certificate_url: uploads/SZYC.pdf
   date_end: ""
   date_start: "2018-12-31"
-  description: Top 1% |2-
-        * Established by the Suzhou Human Resources and Social Security Bureau
-        * Amounted to RMB 10,000
+  description: |2-
+        - Top 1% 
+        - Established by the Suzhou Human Resources and Social Security Bureau
+        - Amounted to RMB 10,000
   organization: SJTU
   organization_url: https://en.sjtu.edu.cn
   title: Suzhou Yucai Scholarship
