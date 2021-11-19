@@ -15,7 +15,7 @@ UTJS is a student organization under the guidance of the Student Steering Commit
 
 {{< icon name="calendar-times" pack="fas" >}} Nov. 2015 - Mar. 2017
 
-{{< icon name="id-badge" pack="fas" >}} Undersecretary
+{{< icon name="id-badge" pack="fas" >}} Undersecretary of Propaganda Department
 
 - Wrote the promotion and press releases for lectures 
 
